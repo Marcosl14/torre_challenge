@@ -1,7 +1,4 @@
 <template>
-  <!-- <div id="nav">
-    <router-link to="/">user</router-link>
-  </div> -->
   <router-view />
 </template>
 
@@ -19,18 +16,16 @@ body {
   color: rgb(167, 169, 172);
 
   padding: 20px;
-}
-/* 
-#nav {
-  padding: 30px;
+  height: 90vh;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.waiting-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
 }
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>
