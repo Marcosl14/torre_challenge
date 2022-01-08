@@ -18,5 +18,5 @@ module.exports = {
       },
     },
   },
-  publicPath: "/torre_challenge/",
+  publicPath: process.env.NODE_ENV === "production" ? "/torre_challenge/" : "/",
 };
