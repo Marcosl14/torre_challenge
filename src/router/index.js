@@ -3,8 +3,9 @@ import User from "../views/User.vue";
 
 const routes = [
   {
-    path: "/",
+    path: "/:username",
     name: "User",
+    props: true,
     component: User,
   },
 ];
