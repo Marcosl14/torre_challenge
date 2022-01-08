@@ -18,4 +18,5 @@ module.exports = {
       },
     },
   },
+  publicPath: "/torre_challenge/",
 };
