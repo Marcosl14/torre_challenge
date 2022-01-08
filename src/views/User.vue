@@ -1,6 +1,6 @@
 <template>
   <div class="user">
-    <div v-if="user === null">
+    <div class="waiting-container" v-if="user === null">
       <h1>Please wait a moment</h1>
     </div>
     <div v-else>
@@ -121,6 +121,10 @@ export default {
 </script>
 
 <style scoped>
+.user {
+  height: 100%;
+}
+
 .hex {
   display: block;
   margin: 0 auto;
@@ -169,6 +173,10 @@ export default {
   margin-left: -40px;
   object-fit: cover;
   transform: rotate(-30deg);
+}
+
+h1 {
+  font-size: 46px;
 }
 
 .skills-container {
